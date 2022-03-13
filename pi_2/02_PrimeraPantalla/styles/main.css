@@ -1,10 +1,70 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1em;
+	background-color: paleturquoise;
+}
+
 #title{
-	font-size: 26px;
+	font-size: 40px;
 	line-height: 75px;
+	grid-column: 2;
+	grid-row: 1;
+	border-bottom: 0.4em solid white;
+	border-radius: 1em;
+	margin-top: 1em;
+}
+
+#start_game{
+	grid-column: 2;
+	grid-row: 2;
+	font-family: sans-serif;
+	color: white;
+	background-color: lightseagreen;
+	border: 0.5em solid white;
+    border-radius: 1em;
+	font-style: italic;
+	text-shadow: 2px 2px 5px black;
+}
+
+#options {
+	grid-column: 2;
+	grid-row: 3;
+	font-family: sans-serif;
+	color: white;
+	background-color: lightseagreen;
+	border: 0.5em solid white;
+    border-radius: 1em;
+	font-style: italic;
+	text-shadow: 2px 2px 5px black;
+}
+
+#exit {
+	grid-column: 2;
+	grid-row: 4;
+	font-family: sans-serif;
+	color: white;
+	background-color: lightseagreen;
+	border: 0.5em solid white;
+    border-radius: 1em;
+	font-style: italic;
+	text-shadow: 2px 2px 5px black;
+}
+
+#main_page {
+	grid-column: 2;
+	grid-row: 5;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15em;
+	height: 2em;
+	font-size: 0.7em;
+	margin-top: 1em;
+    background-color: white;
+    border-radius: 1em;
 }
 
 .menu-object{
-	display:block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 300px;
@@ -15,12 +75,15 @@
 
 p{
 	text-align: center;
+	font-weight: bold;
+    color: darkslategray;
+    font-family: serif;
 }
 
 button.menu-object:active{
 	font-size: 18px;
 	width: 275px;
-	height: 70px;
+	height: 70px;	
 }
 
 button.menu-object:hover:not(:active){
@@ -29,3 +92,27 @@ button.menu-object:hover:not(:active){
 	height: 85px;
 }
 
+
+
+.cards{
+    grid-column: 2;
+	grid-row: 2;
+	background-color: lightseagreen;
+	border: 1em solid white;
+	border-radius: 1em;
+	padding: 1em;
+	padding-left: 2em;
+}
+
+#return_to_menu {
+    grid-column: 2;
+	grid-row: 3;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15em;
+	height: 2em;
+	font-size: 0.7em;
+	margin-top: 1em;
+    background-color: white;
+    border-radius: 1em;
+ }
