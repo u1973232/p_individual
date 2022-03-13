@@ -1,30 +1,55 @@
 #header {
     text-align:center;
     line-height: 3em;
-    background-color: paleturquoise;
+    background-color: lightseagreen;
     font-family: sans-serif;
     color: white;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: 0.5em solid white;
+    border-radius: 1em;
 }
 
 #title {
-    font-size: 1.5em;
+    font-size: 2em;
     text-shadow: 2px 2px 5px black;
 }
 
 #subtitol {
+    font-size: 1.2em;
     font-style: italic;
 }
 
-.button {
+.menu {
+    text-align:center;
+    font-weight: bold;
+    color: darkslategray;
+    font-family: serif;
+    margin: 1em;
+}
+
+hr {
+    height: 0.5em;
+    background-color: white;
+    border: 0.2em ;
+    border-radius: 1em;
+}
+
+#menu_title {
+    font-size: 1.5em;
+}
+
+button {
     display:block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 300px;
-	height: 75px;
-	font-size: 16px;
-	margin-top: 10px;
+	width: 15em;
+	height: 2em;
+	font-size: 0.7em;
+	margin-top: 1em;
+    background-color: white;
+    border-radius: 1em;
 }
 
-.body {
-    background-color: ;
+body {
+    background-color: paleturquoise;
 }
